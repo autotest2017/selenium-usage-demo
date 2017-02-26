@@ -12,7 +12,7 @@ class TestChrome(unittest.TestCase):
         self.command_executor = "http://192.168.6.23:5555/wd/hub"
         #self.command_executor = "http://192.168.5.140:4444/wd/hub"
         self.capabilities = DesiredCapabilities.CHROME.copy()
-        self.capabilities['browserName'] = 'Chrome'
+        self.capabilities['browserName'] = 'chrome'
         self.capabilities['platform'] = "WINDOWS"
         self.capabilities['version'] = "7"
         self.driver = None
